@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bostonjumpstart.com/sitemap.xml
