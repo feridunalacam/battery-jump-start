@@ -4,6 +4,19 @@
     const PHONE_DISPLAY = '+1 (302) 579-1996';
     const PHONE_LINK = '+13025791996';
     const BASE_URL = 'https://bostonjumpstart.com';
+    const GOOGLE_ADS_ID = 'AW-17959688282';
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', GOOGLE_ADS_ID);
+
+    if (!document.querySelector(`script[src*="googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}"]`)) {
+        const googleTag = document.createElement('script');
+        googleTag.async = true;
+        googleTag.src = `https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`;
+        document.head.appendChild(googleTag);
+    }
 
     const routes = {
         'index.html': { type: 'home' },
