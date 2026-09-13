@@ -54,6 +54,15 @@ a { color: inherit; text-decoration: none; }
 .center-cta { text-align: center; margin-top: 2rem; }
 .service-area-note { text-align: center; color: var(--text-light); font-size: .85rem; margin-top: 1.25rem; }
 
+.intent-section { padding: 4rem 0; background: var(--white); }
+.intent-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.intent-card { padding: 1.5rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--off-white); }
+.intent-card h3 { color: var(--primary); font-size: 1.05rem; margin-bottom: .55rem; }
+.intent-card p { color: var(--text-light); font-size: .92rem; line-height: 1.7; }
+.neighborhood-copy { max-width: 850px; margin: 2.5rem auto 0; padding: 1.5rem; border-left: 4px solid var(--accent); background: var(--off-white); }
+.neighborhood-copy h2 { text-align: left; font-size: 1.2rem; }
+.neighborhood-copy p { color: var(--text-light); line-height: 1.75; }
+
 /* ===== HEADER ===== */
 .header {
     background: var(--primary);
@@ -759,6 +768,7 @@ h2 {
 
 @media (max-width: 768px) {
     .language-switch { padding: .45rem .55rem; }
+    .intent-grid { grid-template-columns: 1fr; }
     .map-container {
         height: 350px;
     }

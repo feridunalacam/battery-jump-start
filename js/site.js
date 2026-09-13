@@ -75,6 +75,16 @@
                 sub: 'One service, one price throughout Boston.<br>Call us and we will come to your location.',
                 priceLabel: 'Flat Rate — One Service', priceNote: 'Day, night, weekends, and holidays — no extra charge',
                 areasTitle: 'Our Service Area', areasSub: 'We serve every Boston neighborhood and nearby communities, 24 hours a day',
+                intentTitle: 'Mobile Jump Start Service in Boston',
+                intentSub: 'Fast, professional help for a dead car battery—wherever your vehicle is parked',
+                intentCards: [
+                    ['Dead Car Battery? Need a Jump Start Near Me?', 'If your car battery died at home, at work, in a garage, or on the street, call Boston Jump Start. Our mobile jump start service comes to your location with professional equipment.'],
+                    ['Mobile Jump Start Service Near Me in Boston', 'If you searched for a battery jump near me, you are in the right place. We serve every Boston neighborhood and nearby communities. Share your location by phone or WhatsApp and we will come directly to you.'],
+                    ['Battery Jump Starter or Battery Booster?', 'You do not need to buy a battery jump starter, car jump starter, or battery booster for a one-time emergency. We bring commercial-grade equipment and perform a safe car battery jump start for a flat $129.'],
+                    ['Roadside Battery and Car Battery Service', 'Our battery roadside service is available day or night for most 12-volt cars, SUVs, and light-duty vehicles. We specialize in jump starts; we do not sell or replace batteries.']
+                ],
+                neighborhoodsTitle: 'Jump Start Service Throughout Boston',
+                neighborhoodsText: 'Serving Back Bay, Beacon Hill, Downtown Boston, North End, South End, South Boston, East Boston, Charlestown, Allston, Brighton, Fenway–Kenmore, Mission Hill, Jamaica Plain, Roxbury, Dorchester, Mattapan, Hyde Park, Roslindale, West Roxbury, and surrounding communities.',
                 howTitle: 'How It Works', steps: [
                     ['1', 'Call Us', 'Call +1 (302) 579-1996 and share your location'],
                     ['2', 'We Come to You', 'Our mobile team travels directly to your vehicle'],
@@ -148,6 +158,16 @@
                 sub: 'Un servicio, un precio en todo Boston.<br>Llámenos y llegaremos hasta su ubicación.',
                 priceLabel: 'Precio fijo — Un solo servicio', priceNote: 'Día, noche, fines de semana y festivos — sin cargo adicional',
                 areasTitle: 'Área de servicio', areasSub: 'Atendemos todos los vecindarios de Boston y comunidades cercanas, las 24 horas',
+                intentTitle: 'Servicio móvil de arranque de batería en Boston',
+                intentSub: 'Ayuda profesional para una batería descargada, directamente donde esté su vehículo',
+                intentCards: [
+                    ['¿Batería descargada?', 'Si la batería de su auto se descargó en casa, el trabajo, un estacionamiento o la calle, llame a Boston Jump Start. Nuestro servicio móvil llega con equipo profesional.'],
+                    ['¿Busca ayuda cerca de usted?', 'Ofrecemos servicio local en todos los vecindarios de Boston y comunidades cercanas. Comparta su ubicación por teléfono o WhatsApp y llegaremos directamente.'],
+                    ['Equipo profesional de arranque', 'No necesita comprar un arrancador o cargador para una emergencia puntual. Llevamos equipo profesional y arrancamos la batería de su auto de forma segura por un precio fijo de $129.'],
+                    ['Servicio de batería de día o de noche', 'Nuestro servicio de carretera está disponible 24/7 para la mayoría de autos, SUV y vehículos ligeros de 12 voltios. Nos especializamos en arranques; no vendemos ni reemplazamos baterías.']
+                ],
+                neighborhoodsTitle: 'Servicio de arranque en todo Boston',
+                neighborhoodsText: 'Atendemos Back Bay, Beacon Hill, Downtown Boston, North End, South End, South Boston, East Boston, Charlestown, Allston, Brighton, Fenway–Kenmore, Mission Hill, Jamaica Plain, Roxbury, Dorchester, Mattapan, Hyde Park, Roslindale, West Roxbury y comunidades cercanas.',
                 howTitle: '¿Cómo funciona?', steps: [
                     ['1', 'Llámenos', 'Llame al +1 (302) 579-1996 y comparta su ubicación'],
                     ['2', 'Vamos hasta usted', 'Nuestro equipo móvil se dirige directamente a su vehículo'],
@@ -246,6 +266,7 @@
         const h = t.home;
         return `<main><section class="hero"><div class="container"><div class="badge">${t.badge}</div><h1>${h.h1}</h1><p class="hero-sub">${h.sub}</p><div class="hero-price-box"><div class="hero-price-label">${h.priceLabel}</div><div class="hero-price-value">$129</div><div class="hero-price-note">${h.priceNote}</div></div><div class="hero-buttons">${phoneButton()}${whatsappButton()}</div></div></section>
         <section class="areas"><div class="container"><h2>${h.areasTitle}</h2><p class="section-sub">${h.areasSub}</p><div class="area-grid">${areaCards()}</div><p class="service-area-note">All Boston neighborhoods / Todos los vecindarios de Boston</p></div></section>
+        <section class="intent-section"><div class="container"><h2>${h.intentTitle}</h2><p class="section-sub">${h.intentSub}</p><div class="intent-grid">${h.intentCards.map(card => `<article class="intent-card"><h3>${card[0]}</h3><p>${card[1]}</p></article>`).join('')}</div><div class="neighborhood-copy"><h2>${h.neighborhoodsTitle}</h2><p>${h.neighborhoodsText}</p></div></div></section>
         <section class="steps-section"><div class="container"><h2>${h.howTitle}</h2><div class="steps">${h.steps.map(s => `<div class="step"><span class="step-num">${s[0]}</span><h3>${s[1]}</h3><p>${s[2]}</p></div>`).join('')}</div></div></section>
         <section class="pricing"><div class="container"><h2>${h.pricingTitle}</h2><p class="section-sub">${h.pricingSub}</p><div class="price-card"><div class="price-card-inner"><div class="price-tag">${t.service}</div><div class="price-big">$129</div><div class="price-fixed-note">${t.fixed}</div><ul class="price-features">${h.features.map(x=>`<li>✓ ${x}</li>`).join('')}</ul>${phoneButton()}</div></div></div></section>
         <section class="faq"><div class="container"><h2>${h.faqTitle}</h2><div class="faq-list">${h.faqs.map(q=>`<details class="faq-item"><summary>${q[0]}</summary><p>${q[1]}</p></details>`).join('')}</div></div></section>
