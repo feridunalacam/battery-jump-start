@@ -18,6 +18,25 @@
         document.head.appendChild(googleTag);
     }
 
+    window.gtag_report_conversion = function (url) {
+        let navigated = false;
+        const callback = function () {
+            if (!navigated && typeof url !== 'undefined') {
+                navigated = true;
+                window.location.href = url;
+            }
+        };
+
+        window.gtag('event', 'conversion', {
+            send_to: 'AW-17959688282/qhEBCKKA6vUcENqw7PNC',
+            event_callback: callback,
+            event_timeout: 2000
+        });
+
+        window.setTimeout(callback, 2100);
+        return false;
+    };
+
     const routes = {
         'index.html': { type: 'home' },
         '': { type: 'home' },
@@ -196,7 +215,7 @@
     const t = copy[lang];
     localStorage.setItem('bjs-language', lang);
 
-    const phoneButton = (large = false) => `<a href="tel:${PHONE_LINK}" class="btn-cta${large ? ' btn-cta-xl' : ''}">${phoneIcon()} ${large ? PHONE_DISPLAY : `${t.callNow}: ${PHONE_DISPLAY}`}</a>`;
+    const phoneButton = (large = false) => `<a href="tel:${PHONE_LINK}" class="btn-cta${large ? ' btn-cta-xl' : ''}" onclick="return gtag_report_conversion(this.href)">${phoneIcon()} ${large ? PHONE_DISPLAY : `${t.callNow}: ${PHONE_DISPLAY}`}</a>`;
     const whatsappButton = (area = '') => {
         const msg = lang === 'es' ? `Hola, necesito un arranque de batería${area ? ` en ${area}` : ' en el área de Boston'}.` : `Hello, I need a jump start${area ? ` in ${area}` : ' in the Boston area'}.`;
         return `<a href="https://wa.me/13025791996?text=${encodeURIComponent(msg)}" class="btn-whatsapp" target="_blank" rel="noopener">${whatsappIcon()} ${t.whatsapp}</a>`;
