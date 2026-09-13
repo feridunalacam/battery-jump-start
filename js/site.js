@@ -30,10 +30,10 @@
         window.gtag('event', 'conversion', {
             send_to: 'AW-17959688282/qhEBCKKA6vUcENqw7PNC',
             event_callback: callback,
-            event_timeout: 2000
+            event_timeout: 800
         });
 
-        window.setTimeout(callback, 2100);
+        window.setTimeout(callback, 900);
         return false;
     };
 
@@ -42,6 +42,7 @@
         '': { type: 'home' },
         'about.html': { type: 'about' },
         'contact.html': { type: 'contact' },
+        'privacy.html': { type: 'privacy' },
         'how-to-jump-start-a-car.html': { type: 'blog' },
         'car-battery-service.html': { type: 'carService' },
         'boston-jump-start.html': { type: 'area', area: 'Boston' },
@@ -52,113 +53,10 @@
     };
 
     const copy = {
-        en: {
-            langName: 'Español', langCode: 'es', locale: 'en_US', htmlLang: 'en',
-            servicePageLabel: 'Car Battery Service',
-            nav: ['Home', 'About Us', 'How to Jump-Start a Car', 'Contact'],
-            paths: ['index.html', 'about.html', 'how-to-jump-start-a-car.html', 'contact.html'],
-            service: 'Jump Start', price: '$129', badge: '24/7 Mobile Jump-Start Service',
-            allAreas: 'Boston • Cambridge • Somerville • Brookline • Quincy',
-            footerLine: '24/7 mobile jump-start service throughout Boston and surrounding communities',
-            copyright: '© 2026 Boston Jump Start. All rights reserved.',
-            callNow: 'Call Now', whatsapp: 'Message on WhatsApp', fixed: 'Flat rate — no hidden fees',
-            home: {
-                title: 'Boston Jump Start $129 | 24/7 Mobile Battery Service',
-                desc: 'Mobile car jump-start service for a flat $129 throughout Boston and nearby communities. Available 24/7. Call +1 (302) 579-1996.',
-                h1: 'Car Jump Start <span>$129</span>',
-                sub: 'One service, one price throughout Boston.<br>Call us and we will come to your location.',
-                priceLabel: 'Flat Rate — One Service', priceNote: 'Day, night, weekends, and holidays — no extra charge',
-                areasTitle: 'Our Service Area', areasSub: 'We serve every Boston neighborhood and nearby communities, 24 hours a day',
-                intentTitle: 'Mobile Jump Start Service in Boston',
-                intentSub: 'Fast, professional help for a dead car battery—wherever your vehicle is parked',
-                intentCards: [
-                    ['Dead Car Battery? Need a Jump Start Near Me?', 'If your car battery died at home, at work, in a garage, or on the street, call Boston Jump Start. Our mobile jump start service comes to your location with professional equipment.'],
-                    ['Mobile Jump Start Service Near Me in Boston', 'If you searched for a battery jump near me, you are in the right place. We serve every Boston neighborhood and nearby communities. Share your location by phone or WhatsApp and we will come directly to you.'],
-                    ['Battery Jump Starter or Battery Booster?', 'You do not need to buy a battery jump starter, car jump starter, or battery booster for a one-time emergency. We bring commercial-grade equipment and perform a safe car battery jump start for a flat $129.'],
-                    ['Roadside Battery and Car Battery Service', 'Our battery roadside service is available day or night for most 12-volt cars, SUVs, and light-duty vehicles. We specialize in jump starts; we do not sell or replace batteries.']
-                ],
-                neighborhoodsTitle: 'Jump Start Service Throughout Boston',
-                neighborhoodsText: 'Serving Back Bay, Beacon Hill, Downtown Boston, North End, South End, South Boston, East Boston, Charlestown, Allston, Brighton, Fenway–Kenmore, Mission Hill, Jamaica Plain, Roxbury, Dorchester, Mattapan, Hyde Park, Roslindale, West Roxbury, and surrounding communities.',
-                howTitle: 'How It Works', steps: [
-                    ['1', 'Call Us', 'Call +1 (302) 579-1996 and share your location'],
-                    ['2', 'We Come to You', 'Our mobile team travels directly to your vehicle'],
-                    ['3', 'Your Car Starts', 'We safely jump-start your vehicle and get you moving']
-                ],
-                pricingTitle: 'One Service, One Price', pricingSub: 'We specialize in mobile battery jump starts',
-                features: ['Mobile service at your location', 'Same price day or night', 'Available 24 hours a day, 7 days a week', 'All Boston neighborhoods and surrounding areas', 'No hidden service fees'],
-                faqTitle: 'Frequently Asked Questions', faqs: [
-                    ['Do you come out at night?', 'Yes. We are available 24 hours a day, 7 days a week, including weekends and holidays.'],
-                    ['Is the price really fixed?', 'Yes. A standard mobile jump start is $129 throughout our Boston service area, with no night or weekend surcharge.'],
-                    ['Which areas do you serve?', 'We cover every Boston neighborhood plus Cambridge, Somerville, Brookline, Quincy, and nearby communities.'],
-                    ['Do you provide other roadside services?', 'We specialize in one service: mobile vehicle jump starts.'],
-                    ['What if my vehicle still does not start?', 'The issue may involve the battery, starter, alternator, or another component. We will explain the result and recommend the next step.'],
-                    ['Which vehicles can you help?', 'We serve most 12-volt passenger cars, SUVs, and light-duty vehicles.']
-                ],
-                finalTitle: 'Boston Jump Start = $129', finalSub: 'Call now for mobile service anywhere in Boston and surrounding communities'
-            },
-            about: {
-                title: 'About Us | Boston Jump Start', desc: 'Boston Jump Start provides reliable 24/7 mobile car jump-start service for a flat $129 throughout Boston.',
-                h1: 'About Us', sub: 'Straightforward, reliable mobile jump-start service',
-                sections: [
-                    ['Who We Are', 'Boston Jump Start is a focused roadside service serving Boston and surrounding communities. We do one job: safely jump-start vehicles when drivers need help.'],
-                    ['One Service: Jump Start — $129', 'Our standard price is a flat $129 throughout the service area. The rate does not change at night, on weekends, or on holidays.'],
-                    ['Why Choose Us?', '<ul><li>Flat $129 jump-start price</li><li>Available 24/7</li><li>Mobile service at your location</li><li>Clear pricing with no hidden fees</li><li>Service for most cars, SUVs, and light-duty vehicles</li></ul>'],
-                    ['Our Service Area', 'We cover all Boston neighborhoods, including Back Bay, Beacon Hill, Downtown, Dorchester, Roxbury, South Boston, Jamaica Plain, Brighton, Allston, Charlestown, East Boston, Hyde Park, Mattapan, Roslindale, and West Roxbury, plus nearby communities.']
-                ]
-            },
-            contact: {
-                title: 'Contact | Boston Jump Start | +1 (302) 579-1996', desc: 'Call Boston Jump Start at +1 (302) 579-1996 for 24/7 mobile jump-start service. Flat $129 throughout Boston.',
-                h1: 'Contact Us', sub: 'Tell us where you are and we will come to you', intro: 'Dead battery? Call or message us for mobile jump-start service.',
-                labels: ['Phone', 'WhatsApp', 'Hours', 'Service Area', 'Price'],
-                values: [PHONE_DISPLAY, 'Send a WhatsApp Message', '24 hours a day, 7 days a week', 'All Boston neighborhoods and surrounding communities', 'Flat $129 (no hidden fees)']
-            },
-            blog: {
-                title: 'How to Jump-Start a Car Safely | Boston Jump Start', desc: 'Learn how to connect jumper cables and safely jump-start a car. For professional mobile service in Boston, call Boston Jump Start.',
-                h1: 'How to Jump-Start a Car', sub: 'A practical, safety-first guide',
-                intro: 'A dead battery is common, but connecting jumper cables incorrectly can damage a vehicle or cause injury. If you are unsure, stop and call a professional.',
-                sections: [
-                    ['What You Need', '<ul><li>A vehicle with a charged 12-volt battery or a suitable jump pack</li><li>Undamaged, correctly rated jumper cables</li><li>Eye protection and a safe, ventilated location</li></ul>'],
-                    ['Before You Begin', '<p>Check the owner’s manual. Do not attempt a jump start if the battery is cracked, leaking, frozen, swollen, or visibly damaged. Keep flames and sparks away.</p>'],
-                    ['Connect the Cables in This Order', '<ol><li>Turn both vehicles off and set the parking brakes.</li><li>Connect the red clamp to the dead battery’s positive (+) terminal.</li><li>Connect the other red clamp to the good battery’s positive (+) terminal.</li><li>Connect the black clamp to the good battery’s negative (−) terminal.</li><li>Connect the final black clamp to an unpainted metal grounding point on the disabled vehicle, away from the battery.</li></ol>'],
-                    ['Start the Vehicles', '<p>Start the assisting vehicle, wait briefly, then try the disabled vehicle. Do not crank continuously. Once started, disconnect the cables in reverse order without allowing the clamps to touch.</p>'],
-                    ['When to Call a Professional', '<p>Call for help if you cannot identify the terminals, the battery is damaged, the vehicle uses a special jump procedure, or the engine still will not start.</p>']
-                ]
-            },
-            area: {
-                title: a => `${a} Jump Start $129 | 24/7 Mobile Service`,
-                desc: a => `Flat-rate $129 mobile car jump-start service in ${a}. Available 24/7. Call +1 (302) 579-1996.`,
-                sub: a => `Mobile jump-start service throughout ${a}.<br>One service, one flat price.`,
-                heading: a => `${a} Mobile Jump-Start Service`,
-                body: a => `Dead battery in ${a}? Call us and share your location. We provide mobile vehicle jump starts throughout ${a} and connect drivers with fast, straightforward help.`,
-                features: a => [`Service throughout ${a}`, 'Flat $129 price with no hidden fees', 'Available day and night, 7 days a week', 'Most cars, SUVs, and light-duty vehicles', 'Phone and WhatsApp support'],
-                priceTitle: 'Clear, Flat-Rate Pricing',
-                priceBody: a => `A standard mobile jump start in ${a} is $129. There is no added night, weekend, or holiday surcharge.`,
-                final: a => `${a} Jump Start = $129`
-            },
-            carService: {
-                title: 'Car Battery Service Boston | Mobile Jump Start $129',
-                desc: 'Need car battery service in Boston? Our 24/7 mobile car battery jump-start service comes to you for a flat $129. Call +1 (302) 579-1996.',
-                h1: 'Mobile Car Battery Service in Boston',
-                sub: 'Professional on-location help when your car battery is dead.<br><strong>$129 flat-rate jump-start service.</strong>',
-                introTitle: 'Car Battery Service That Comes to You',
-                intro: 'When your vehicle will not start because the battery has lost power, Boston Jump Start brings mobile car battery service directly to your location. Our service is focused on safe, professional battery jump starts for most 12-volt cars, SUVs, and light-duty vehicles.',
-                helpTitle: 'Help for Common Car Battery Problems',
-                help: [
-                    ['Car battery died', 'Your lights were left on, the vehicle sat too long, or cold weather drained the battery. We provide an on-site jump start.'],
-                    ['Car will not start', 'If you hear clicking or the electrical system is weak, a battery jump start may get you moving again.'],
-                    ['Need roadside battery service', 'You do not need to arrange a tow just to attempt a jump start. Our mobile service comes to your parked vehicle.'],
-                    ['Need a battery boost', 'We arrive with professional jump-start equipment and safely connect it using the correct procedure for your vehicle.']
-                ],
-                includesTitle: 'What Our $129 Car Battery Service Includes',
-                includes: ['Mobile arrival at your Boston-area location', 'Professional 12-volt battery jump start', 'Safe connection and startup procedure', 'Service day or night, 7 days a week', 'Clear $129 flat rate with no hidden surcharge'],
-                honestTitle: 'Jump-Start Service, Not Battery Replacement',
-                honest: 'Our car battery service is specifically a mobile jump start. We do not sell or install replacement batteries. If the vehicle still does not start after the jump attempt, the cause may be the battery, starter, alternator, wiring, or another mechanical issue.',
-                finalTitle: 'Need Car Battery Service Now?'
-            }
-        },
         es: {
             langName: 'English', langCode: 'en', locale: 'es_US', htmlLang: 'es',
             servicePageLabel: 'Servicio de batería',
+            privacyLabel: 'Política de privacidad',
             nav: ['Inicio', 'Nosotros', 'Cómo pasar corriente', 'Contacto'],
             paths: ['index.html', 'about.html', 'how-to-jump-start-a-car.html', 'contact.html'],
             service: 'Arranque de batería', price: '$129', badge: 'Servicio móvil 24/7',
@@ -258,6 +156,18 @@
                 honestTitle: 'Servicio de arranque, no reemplazo de batería',
                 honest: 'Nuestro servicio de batería consiste específicamente en un arranque móvil. No vendemos ni instalamos baterías nuevas. Si el vehículo no arranca, la causa puede ser la batería, el motor de arranque, el alternador, el cableado u otro problema.',
                 finalTitle: '¿Necesita servicio de batería ahora?'
+            },
+            privacy: {
+                title: 'Política de privacidad | Boston Jump Start',
+                desc: 'Conozca cómo Boston Jump Start utiliza información del sitio web y tecnologías de medición publicitaria.',
+                h1: 'Política de privacidad',
+                sub: 'Cómo se utiliza la información en este sitio',
+                sections: [
+                    ['Información que recopilamos', 'Cuando visita el sitio, servicios como Google Ads pueden recopilar información técnica y de uso, como páginas visitadas, tipo de dispositivo, dirección IP aproximada e interacciones con botones.'],
+                    ['Llamadas y WhatsApp', 'Al seleccionar un enlace de teléfono o WhatsApp, su dispositivo se comunica con el proveedor correspondiente. No recopilamos el contenido de sus llamadas ni mensajes mediante este sitio web.'],
+                    ['Publicidad y medición', 'Utilizamos Google Ads para medir visitas y clics en botones de llamada relacionados con nuestras campañas. Google puede utilizar cookies u otras tecnologías conforme a sus propias políticas.'],
+                    ['Contacto', 'Si tiene preguntas sobre esta política, llame al +1 (302) 579-1996.']
+                ]
             }
         }
     };
@@ -265,12 +175,10 @@
     const file = location.pathname.split('/').pop();
     const route = routes[file] || routes[''];
     const params = new URLSearchParams(location.search);
-    const saved = localStorage.getItem('bjs-language');
-    const lang = params.get('lang') === 'es' || (!params.get('lang') && saved === 'es') ? 'es' : 'en';
+    const lang = params.get('lang') === 'es' ? 'es' : 'en';
     const t = copy[lang];
-    localStorage.setItem('bjs-language', lang);
 
-    const phoneButton = (large = false) => `<a href="tel:${PHONE_LINK}" class="btn-cta${large ? ' btn-cta-xl' : ''}" onclick="return gtag_report_conversion(this.href)">${phoneIcon()} ${large ? PHONE_DISPLAY : `${t.callNow}: ${PHONE_DISPLAY}`}</a>`;
+    const phoneButton = (large = false) => `<a href="tel:${PHONE_LINK}" class="btn-cta${large ? ' btn-cta-xl' : ''}">${phoneIcon()} ${large ? PHONE_DISPLAY : `${t.callNow}: ${PHONE_DISPLAY}`}</a>`;
     const whatsappButton = (area = '') => {
         const msg = lang === 'es' ? `Hola, necesito un arranque de batería${area ? ` en ${area}` : ' en el área de Boston'}.` : `Hello, I need a jump start${area ? ` in ${area}` : ' in the Boston area'}.`;
         return `<a href="https://wa.me/13025791996?text=${encodeURIComponent(msg)}" class="btn-whatsapp" target="_blank" rel="noopener">${whatsappIcon()} ${t.whatsapp}</a>`;
@@ -282,12 +190,12 @@
         return `<header class="header" id="header"><div class="container header-inner">
             <a href="index.html${lang === 'es' ? '?lang=es' : ''}" class="logo"><svg class="logo-icon" viewBox="0 0 40 40" width="36" height="36"><rect x="4" y="8" width="32" height="28" rx="4" fill="#f59e0b"/><rect x="14" y="4" width="12" height="6" rx="2" fill="#f59e0b"/><rect x="6" y="10" width="28" height="24" rx="3" fill="#0f172a"/><polygon points="22,13 16,23 19,23 17,31 25,20 21,20 22,13" fill="#f59e0b"/></svg><span class="logo-text">BOSTON<span>JUMP START</span></span></a>
             <nav class="nav" id="nav">${t.nav.map((n, i) => `<a href="${t.paths[i]}${lang === 'es' ? '?lang=es' : ''}">${n}</a>`).join('')}</nav>
-            <div class="header-actions"><a class="language-switch" href="?lang=${t.langCode}" lang="${t.langCode}" aria-label="${t.langName}">${t.langName}</a><a href="tel:${PHONE_LINK}" class="btn-header-call">${phoneIcon()}<span class="call-text">${PHONE_DISPLAY}</span></a><button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button></div>
+            <div class="header-actions"><a class="language-switch" href="?lang=${t.langCode}" lang="${t.langCode}" aria-label="${t.langName}">${t.langName}</a><a href="tel:${PHONE_LINK}" class="btn-header-call">${phoneIcon()}<span class="call-text">${PHONE_DISPLAY}</span></a><button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button></div>
         </div></header>`;
     }
 
     function footer() {
-        return `<footer class="footer"><div class="container"><div class="footer-top"><div class="footer-brand"><strong>Boston Jump Start</strong><p>${t.footerLine}</p></div><div class="footer-links">${t.nav.map((n, i) => `<a href="${t.paths[i]}${lang === 'es' ? '?lang=es' : ''}">${n}</a>`).join('')}<a href="car-battery-service.html${lang === 'es' ? '?lang=es' : ''}">${t.servicePageLabel}</a></div><div class="footer-contact"><a href="tel:${PHONE_LINK}">${PHONE_DISPLAY}</a><p>${t.allAreas}</p></div></div><div class="footer-bottom"><p>${t.copyright}</p></div></div></footer><a href="tel:${PHONE_LINK}" class="floating-call" aria-label="${t.callNow}">${phoneIcon()}<span>${t.callNow}</span></a>`;
+        return `<footer class="footer"><div class="container"><div class="footer-top"><div class="footer-brand"><strong>Boston Jump Start</strong><p>${t.footerLine}</p></div><div class="footer-links">${t.nav.map((n, i) => `<a href="${t.paths[i]}${lang === 'es' ? '?lang=es' : ''}">${n}</a>`).join('')}<a href="car-battery-service.html${lang === 'es' ? '?lang=es' : ''}">${t.servicePageLabel}</a><a href="privacy.html${lang === 'es' ? '?lang=es' : ''}">${t.privacyLabel}</a></div><div class="footer-contact"><a href="tel:${PHONE_LINK}">${PHONE_DISPLAY}</a><p>${t.allAreas}</p></div></div><div class="footer-bottom"><p>${t.copyright}</p></div></div></footer><a href="tel:${PHONE_LINK}" class="floating-call" aria-label="${t.callNow}">${phoneIcon()}<span>${t.callNow}</span></a>`;
     }
 
     function smallHero(h1, sub) { return `<section class="hero hero-small"><div class="container"><h1>${h1}</h1><p class="hero-sub">${sub}</p></div></section>`; }
@@ -310,12 +218,13 @@
 
     function about() { const a=t.about; return `<main>${smallHero(a.h1,a.sub)}<section class="content-section"><div class="container"><div class="content-card">${contentSections(a.sections)}<div class="center-cta">${phoneButton()}</div></div></div></section></main>`; }
     function contact() { const c=t.contact; return `<main>${smallHero(c.h1,c.sub)}<section class="content-section"><div class="container"><div class="content-card"><h2>${c.h1}</h2><p>${c.intro}</p><div class="contact-info">${c.labels.map((x,i)=>`<div class="contact-row"><div><strong>${x}</strong><br>${i===0?`<a href="tel:${PHONE_LINK}">${c.values[i]}</a>`:i===1?whatsappButton():c.values[i]}</div></div>`).join('')}</div><div class="center-cta">${phoneButton()}</div></div></div></section></main>`; }
-    function blog() { const b=t.blog; return `<main>${smallHero(b.h1,b.sub)}<article class="blog-article"><div class="container"><div class="blog-content"><p class="blog-intro">${b.intro}</p><img src="images/aku-takviyesi-1.png" alt="Jumper cables connected to a car battery" class="blog-img">${contentSections(b.sections.slice(0,3))}<img src="images/aku-takviyesi-2.png" alt="Vehicle jump-start cables" class="blog-img">${contentSections(b.sections.slice(3))}<div class="blog-cta"><h2>${lang==='es'?'¿Prefiere ayuda profesional?':'Prefer professional help?'}</h2><p>${t.home.finalSub}</p>${phoneButton()}</div></div></div></article></main>`; }
+    function blog() { const b=t.blog; return `<main>${smallHero(b.h1,b.sub)}<article class="blog-article"><div class="container"><div class="blog-content"><p class="blog-intro">${b.intro}</p><img src="images/battery-jump-start-1.jpg" width="850" height="638" alt="Jumper cables connected to a car battery" class="blog-img">${contentSections(b.sections.slice(0,3))}<img src="images/battery-jump-start-2.avif" width="1400" height="622" alt="Vehicle jump-start cables" class="blog-img">${contentSections(b.sections.slice(3))}<div class="blog-cta"><h2>${lang==='es'?'¿Prefiere ayuda profesional?':'Prefer professional help?'}</h2><p>${t.home.finalSub}</p>${phoneButton()}</div></div></div></article></main>`; }
     function area() { const a=route.area, x=t.area; return `<main><section class="hero"><div class="container"><div class="badge">${t.badge}</div><h1>${a} ${t.service} <span>$129</span></h1><p class="hero-sub">${x.sub(a)}</p><div class="hero-price-box"><div class="hero-price-label">${t.fixed}</div><div class="hero-price-value">$129</div></div><div class="hero-buttons">${phoneButton()}${whatsappButton(a)}</div></div></section><section class="content-section"><div class="container"><div class="content-card"><h2>${x.heading(a)}</h2><p>${x.body(a)}</p><h2>${lang==='es'?'Lo que incluye':'What You Get'}</h2><ul>${x.features(a).map(v=>`<li>${v}</li>`).join('')}</ul><h2>${x.priceTitle}</h2><p>${x.priceBody(a)}</p><div class="center-cta">${phoneButton()}</div></div></div></section><section class="final-cta"><div class="container"><h2>${x.final(a)}</h2><p>${t.home.finalSub}</p>${phoneButton(true)}</div></section></main>`; }
     function carService() { const c=t.carService; return `<main><section class="hero"><div class="container"><div class="badge">${t.badge}</div><h1>${c.h1}</h1><p class="hero-sub">${c.sub}</p><div class="hero-price-box"><div class="hero-price-label">${t.fixed}</div><div class="hero-price-value">$129</div></div><div class="hero-buttons">${phoneButton()}${whatsappButton('Boston')}</div></div></section><section class="content-section"><div class="container"><div class="service-landing"><h2>${c.introTitle}</h2><p class="service-lead">${c.intro}</p><h2>${c.helpTitle}</h2><div class="intent-grid">${c.help.map(v=>`<article class="intent-card"><h3>${v[0]}</h3><p>${v[1]}</p></article>`).join('')}</div><div class="content-card service-includes"><h2>${c.includesTitle}</h2><ul>${c.includes.map(v=>`<li>${v}</li>`).join('')}</ul></div><div class="honest-service"><h2>${c.honestTitle}</h2><p>${c.honest}</p></div></div></div></section><section class="final-cta"><div class="container"><h2>${c.finalTitle}</h2><p>${t.home.finalSub}</p>${phoneButton(true)}</div></section></main>`; }
+    function privacy() { const p=t.privacy; return `<main>${smallHero(p.h1,p.sub)}<section class="content-section"><div class="container"><div class="content-card">${contentSections(p.sections)}</div></div></section></main>`; }
 
     function meta() {
-        let d = route.type === 'home' ? t.home : route.type === 'about' ? t.about : route.type === 'contact' ? t.contact : route.type === 'blog' ? t.blog : route.type === 'carService' ? t.carService : { title:t.area.title(route.area), desc:t.area.desc(route.area) };
+        let d = route.type === 'home' ? t.home : route.type === 'about' ? t.about : route.type === 'contact' ? t.contact : route.type === 'blog' ? t.blog : route.type === 'carService' ? t.carService : route.type === 'privacy' ? t.privacy : { title:t.area.title(route.area), desc:t.area.desc(route.area) };
         document.documentElement.lang = t.htmlLang;
         document.title = d.title;
         let md = document.querySelector('meta[name="description"]'); if (md) md.content = d.desc;
@@ -325,9 +234,12 @@
     }
 
     document.addEventListener('DOMContentLoaded', function () {
+        if (lang === 'en') {
+            return;
+        }
         meta();
-        const body = route.type==='home'?home():route.type==='about'?about():route.type==='contact'?contact():route.type==='blog'?blog():route.type==='carService'?carService():area();
-        document.body.innerHTML = header() + body + footer() + '<script src="js/main.js"><\/script>';
+        const body = route.type==='home'?home():route.type==='about'?about():route.type==='contact'?contact():route.type==='blog'?blog():route.type==='carService'?carService():route.type==='privacy'?privacy():area();
+        document.body.innerHTML = header() + body + footer();
         document.dispatchEvent(new Event('site:rendered'));
     });
 })();

@@ -1,10 +1,23 @@
 function initializeSiteInteractions() {
+    if (document.documentElement.dataset.interactionsInitialized === 'true') {
+        return;
+    }
+    document.documentElement.dataset.interactionsInitialized = 'true';
+
     const hamburger = document.getElementById('hamburger');
     const nav = document.getElementById('nav');
+
+    document.querySelectorAll('.language-switch').forEach(function(link) {
+        const targetLanguage = link.getAttribute('lang');
+        const languageUrl = new URL(window.location.href);
+        languageUrl.searchParams.set('lang', targetLanguage);
+        link.href = languageUrl.pathname + languageUrl.search + languageUrl.hash;
+    });
 
     if (hamburger && nav) {
         hamburger.addEventListener('click', function() {
             nav.classList.toggle('open');
+            hamburger.setAttribute('aria-expanded', String(nav.classList.contains('open')));
             const spans = hamburger.querySelectorAll('span');
             if (nav.classList.contains('open')) {
                 spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
@@ -20,6 +33,7 @@ function initializeSiteInteractions() {
         nav.querySelectorAll('a').forEach(function(link) {
             link.addEventListener('click', function() {
                 nav.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', 'false');
                 const spans = hamburger.querySelectorAll('span');
                 spans[0].style.transform = '';
                 spans[1].style.opacity = '';
@@ -30,7 +44,6 @@ function initializeSiteInteractions() {
 
     var header = document.getElementById('header');
     if (header) {
-        var lastScroll = 0;
         window.addEventListener('scroll', function() {
             var currentScroll = window.pageYOffset;
             if (currentScroll > 100) {
@@ -38,7 +51,6 @@ function initializeSiteInteractions() {
             } else {
                 header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.15)';
             }
-            lastScroll = currentScroll;
         });
     }
 
@@ -51,6 +63,16 @@ function initializeSiteInteractions() {
             }
         });
     }
+
+    document.addEventListener('click', function(event) {
+        const callLink = event.target.closest('a[href^="tel:"]');
+        if (!callLink || typeof window.gtag_report_conversion !== 'function') {
+            return;
+        }
+
+        event.preventDefault();
+        window.gtag_report_conversion(callLink.href);
+    });
 }
 
 document.addEventListener('DOMContentLoaded', initializeSiteInteractions);
