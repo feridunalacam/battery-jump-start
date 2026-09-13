@@ -44,15 +44,15 @@
             langName: 'Español', langCode: 'es', locale: 'en_US', htmlLang: 'en',
             nav: ['Home', 'About Us', 'How to Jump-Start a Car', 'Contact'],
             paths: ['index.html', 'about.html', 'how-to-jump-start-a-car.html', 'contact.html'],
-            service: 'Jump Start', price: '$200', badge: '24/7 Mobile Jump-Start Service',
+            service: 'Jump Start', price: '$129', badge: '24/7 Mobile Jump-Start Service',
             allAreas: 'Boston • Cambridge • Somerville • Brookline • Quincy',
             footerLine: '24/7 mobile jump-start service throughout Boston and surrounding communities',
             copyright: '© 2026 Boston Jump Start. All rights reserved.',
             callNow: 'Call Now', whatsapp: 'Message on WhatsApp', fixed: 'Flat rate — no hidden fees',
             home: {
-                title: 'Boston Jump Start $200 | 24/7 Mobile Battery Service',
-                desc: 'Mobile car jump-start service for a flat $200 throughout Boston and nearby communities. Available 24/7. Call +1 (302) 579-1996.',
-                h1: 'Car Jump Start <span>$200</span>',
+                title: 'Boston Jump Start $129 | 24/7 Mobile Battery Service',
+                desc: 'Mobile car jump-start service for a flat $129 throughout Boston and nearby communities. Available 24/7. Call +1 (302) 579-1996.',
+                h1: 'Car Jump Start <span>$129</span>',
                 sub: 'One service, one price throughout Boston.<br>Call us and we will come to your location.',
                 priceLabel: 'Flat Rate — One Service', priceNote: 'Day, night, weekends, and holidays — no extra charge',
                 areasTitle: 'Our Service Area', areasSub: 'We serve every Boston neighborhood and nearby communities, 24 hours a day',
@@ -65,29 +65,29 @@
                 features: ['Mobile service at your location', 'Same price day or night', 'Available 24 hours a day, 7 days a week', 'All Boston neighborhoods and surrounding areas', 'No hidden service fees'],
                 faqTitle: 'Frequently Asked Questions', faqs: [
                     ['Do you come out at night?', 'Yes. We are available 24 hours a day, 7 days a week, including weekends and holidays.'],
-                    ['Is the price really fixed?', 'Yes. A standard mobile jump start is $200 throughout our Boston service area, with no night or weekend surcharge.'],
+                    ['Is the price really fixed?', 'Yes. A standard mobile jump start is $129 throughout our Boston service area, with no night or weekend surcharge.'],
                     ['Which areas do you serve?', 'We cover every Boston neighborhood plus Cambridge, Somerville, Brookline, Quincy, and nearby communities.'],
                     ['Do you provide other roadside services?', 'We specialize in one service: mobile vehicle jump starts.'],
                     ['What if my vehicle still does not start?', 'The issue may involve the battery, starter, alternator, or another component. We will explain the result and recommend the next step.'],
                     ['Which vehicles can you help?', 'We serve most 12-volt passenger cars, SUVs, and light-duty vehicles.']
                 ],
-                finalTitle: 'Boston Jump Start = $200', finalSub: 'Call now for mobile service anywhere in Boston and surrounding communities'
+                finalTitle: 'Boston Jump Start = $129', finalSub: 'Call now for mobile service anywhere in Boston and surrounding communities'
             },
             about: {
-                title: 'About Us | Boston Jump Start', desc: 'Boston Jump Start provides reliable 24/7 mobile car jump-start service for a flat $200 throughout Boston.',
+                title: 'About Us | Boston Jump Start', desc: 'Boston Jump Start provides reliable 24/7 mobile car jump-start service for a flat $129 throughout Boston.',
                 h1: 'About Us', sub: 'Straightforward, reliable mobile jump-start service',
                 sections: [
                     ['Who We Are', 'Boston Jump Start is a focused roadside service serving Boston and surrounding communities. We do one job: safely jump-start vehicles when drivers need help.'],
-                    ['One Service: Jump Start — $200', 'Our standard price is a flat $200 throughout the service area. The rate does not change at night, on weekends, or on holidays.'],
-                    ['Why Choose Us?', '<ul><li>Flat $200 jump-start price</li><li>Available 24/7</li><li>Mobile service at your location</li><li>Clear pricing with no hidden fees</li><li>Service for most cars, SUVs, and light-duty vehicles</li></ul>'],
+                    ['One Service: Jump Start — $129', 'Our standard price is a flat $129 throughout the service area. The rate does not change at night, on weekends, or on holidays.'],
+                    ['Why Choose Us?', '<ul><li>Flat $129 jump-start price</li><li>Available 24/7</li><li>Mobile service at your location</li><li>Clear pricing with no hidden fees</li><li>Service for most cars, SUVs, and light-duty vehicles</li></ul>'],
                     ['Our Service Area', 'We cover all Boston neighborhoods, including Back Bay, Beacon Hill, Downtown, Dorchester, Roxbury, South Boston, Jamaica Plain, Brighton, Allston, Charlestown, East Boston, Hyde Park, Mattapan, Roslindale, and West Roxbury, plus nearby communities.']
                 ]
             },
             contact: {
-                title: 'Contact | Boston Jump Start | +1 (302) 579-1996', desc: 'Call Boston Jump Start at +1 (302) 579-1996 for 24/7 mobile jump-start service. Flat $200 throughout Boston.',
+                title: 'Contact | Boston Jump Start | +1 (302) 579-1996', desc: 'Call Boston Jump Start at +1 (302) 579-1996 for 24/7 mobile jump-start service. Flat $129 throughout Boston.',
                 h1: 'Contact Us', sub: 'Tell us where you are and we will come to you', intro: 'Dead battery? Call or message us for mobile jump-start service.',
                 labels: ['Phone', 'WhatsApp', 'Hours', 'Service Area', 'Price'],
-                values: [PHONE_DISPLAY, 'Send a WhatsApp Message', '24 hours a day, 7 days a week', 'All Boston neighborhoods and surrounding communities', 'Flat $200 (no hidden fees)']
+                values: [PHONE_DISPLAY, 'Send a WhatsApp Message', '24 hours a day, 7 days a week', 'All Boston neighborhoods and surrounding communities', 'Flat $129 (no hidden fees)']
             },
             blog: {
                 title: 'How to Jump-Start a Car Safely | Boston Jump Start', desc: 'Learn how to connect jumper cables and safely jump-start a car. For professional mobile service in Boston, call Boston Jump Start.',
@@ -102,30 +102,30 @@
                 ]
             },
             area: {
-                title: a => `${a} Jump Start $200 | 24/7 Mobile Service`,
-                desc: a => `Flat-rate $200 mobile car jump-start service in ${a}. Available 24/7. Call +1 (302) 579-1996.`,
+                title: a => `${a} Jump Start $129 | 24/7 Mobile Service`,
+                desc: a => `Flat-rate $129 mobile car jump-start service in ${a}. Available 24/7. Call +1 (302) 579-1996.`,
                 sub: a => `Mobile jump-start service throughout ${a}.<br>One service, one flat price.`,
                 heading: a => `${a} Mobile Jump-Start Service`,
                 body: a => `Dead battery in ${a}? Call us and share your location. We provide mobile vehicle jump starts throughout ${a} and connect drivers with fast, straightforward help.`,
-                features: a => [`Service throughout ${a}`, 'Flat $200 price with no hidden fees', 'Available day and night, 7 days a week', 'Most cars, SUVs, and light-duty vehicles', 'Phone and WhatsApp support'],
+                features: a => [`Service throughout ${a}`, 'Flat $129 price with no hidden fees', 'Available day and night, 7 days a week', 'Most cars, SUVs, and light-duty vehicles', 'Phone and WhatsApp support'],
                 priceTitle: 'Clear, Flat-Rate Pricing',
-                priceBody: a => `A standard mobile jump start in ${a} is $200. There is no added night, weekend, or holiday surcharge.`,
-                final: a => `${a} Jump Start = $200`
+                priceBody: a => `A standard mobile jump start in ${a} is $129. There is no added night, weekend, or holiday surcharge.`,
+                final: a => `${a} Jump Start = $129`
             }
         },
         es: {
             langName: 'English', langCode: 'en', locale: 'es_US', htmlLang: 'es',
             nav: ['Inicio', 'Nosotros', 'Cómo pasar corriente', 'Contacto'],
             paths: ['index.html', 'about.html', 'how-to-jump-start-a-car.html', 'contact.html'],
-            service: 'Arranque de batería', price: '$200', badge: 'Servicio móvil 24/7',
+            service: 'Arranque de batería', price: '$129', badge: 'Servicio móvil 24/7',
             allAreas: 'Boston • Cambridge • Somerville • Brookline • Quincy',
             footerLine: 'Servicio móvil de arranque de batería 24/7 en Boston y comunidades cercanas',
             copyright: '© 2026 Boston Jump Start. Todos los derechos reservados.',
             callNow: 'Llamar ahora', whatsapp: 'Escribir por WhatsApp', fixed: 'Precio fijo, sin cargos ocultos',
             home: {
-                title: 'Arranque de batería en Boston $200 | Servicio móvil 24/7',
-                desc: 'Servicio móvil de arranque de batería por $200 en todo Boston y comunidades cercanas. Disponible 24/7. Llame al +1 (302) 579-1996.',
-                h1: 'Arranque de batería <span>$200</span>',
+                title: 'Arranque de batería en Boston $129 | Servicio móvil 24/7',
+                desc: 'Servicio móvil de arranque de batería por $129 en todo Boston y comunidades cercanas. Disponible 24/7. Llame al +1 (302) 579-1996.',
+                h1: 'Arranque de batería <span>$129</span>',
                 sub: 'Un servicio, un precio en todo Boston.<br>Llámenos y llegaremos hasta su ubicación.',
                 priceLabel: 'Precio fijo — Un solo servicio', priceNote: 'Día, noche, fines de semana y festivos — sin cargo adicional',
                 areasTitle: 'Área de servicio', areasSub: 'Atendemos todos los vecindarios de Boston y comunidades cercanas, las 24 horas',
@@ -138,29 +138,29 @@
                 features: ['Servicio móvil en su ubicación', 'El mismo precio de día o de noche', 'Disponibles las 24 horas, los 7 días', 'Todos los vecindarios de Boston y alrededores', 'Sin cargos ocultos'],
                 faqTitle: 'Preguntas frecuentes', faqs: [
                     ['¿Atienden durante la noche?', 'Sí. Estamos disponibles las 24 horas, los 7 días, incluidos fines de semana y festivos.'],
-                    ['¿El precio es realmente fijo?', 'Sí. Un arranque móvil estándar cuesta $200 en nuestra área de Boston, sin recargos nocturnos ni de fin de semana.'],
+                    ['¿El precio es realmente fijo?', 'Sí. Un arranque móvil estándar cuesta $129 en nuestra área de Boston, sin recargos nocturnos ni de fin de semana.'],
                     ['¿Qué zonas atienden?', 'Cubrimos todos los vecindarios de Boston, además de Cambridge, Somerville, Brookline, Quincy y comunidades cercanas.'],
                     ['¿Ofrecen otros servicios de carretera?', 'Nos especializamos en un solo servicio: arranque móvil de vehículos.'],
                     ['¿Qué pasa si el vehículo no arranca?', 'El problema puede estar en la batería, el motor de arranque, el alternador u otro componente. Le explicaremos el resultado y el siguiente paso.'],
                     ['¿Qué vehículos atienden?', 'Atendemos la mayoría de automóviles, SUV y vehículos ligeros de 12 voltios.']
                 ],
-                finalTitle: 'Arranque en Boston = $200', finalSub: 'Llame ahora para recibir servicio móvil en Boston y comunidades cercanas'
+                finalTitle: 'Arranque en Boston = $129', finalSub: 'Llame ahora para recibir servicio móvil en Boston y comunidades cercanas'
             },
             about: {
-                title: 'Nosotros | Boston Jump Start', desc: 'Boston Jump Start ofrece servicio móvil de arranque 24/7 por un precio fijo de $200 en Boston.',
+                title: 'Nosotros | Boston Jump Start', desc: 'Boston Jump Start ofrece servicio móvil de arranque 24/7 por un precio fijo de $129 en Boston.',
                 h1: 'Nosotros', sub: 'Servicio móvil confiable, claro y directo',
                 sections: [
                     ['Quiénes somos', 'Boston Jump Start es un servicio de carretera especializado que atiende Boston y comunidades cercanas. Hacemos una cosa: arrancar vehículos de forma segura cuando los conductores necesitan ayuda.'],
-                    ['Un servicio: arranque de batería — $200', 'Nuestro precio estándar es de $200 en toda el área de servicio. La tarifa no cambia por la noche, los fines de semana ni los festivos.'],
-                    ['¿Por qué elegirnos?', '<ul><li>Precio fijo de $200</li><li>Disponibles 24/7</li><li>Servicio móvil en su ubicación</li><li>Precio claro y sin cargos ocultos</li><li>Atención para la mayoría de autos, SUV y vehículos ligeros</li></ul>'],
+                    ['Un servicio: arranque de batería — $129', 'Nuestro precio estándar es de $129 en toda el área de servicio. La tarifa no cambia por la noche, los fines de semana ni los festivos.'],
+                    ['¿Por qué elegirnos?', '<ul><li>Precio fijo de $129</li><li>Disponibles 24/7</li><li>Servicio móvil en su ubicación</li><li>Precio claro y sin cargos ocultos</li><li>Atención para la mayoría de autos, SUV y vehículos ligeros</li></ul>'],
                     ['Nuestra área de servicio', 'Cubrimos todos los vecindarios de Boston, incluidos Back Bay, Beacon Hill, Downtown, Dorchester, Roxbury, South Boston, Jamaica Plain, Brighton, Allston, Charlestown, East Boston, Hyde Park, Mattapan, Roslindale y West Roxbury, además de comunidades cercanas.']
                 ]
             },
             contact: {
-                title: 'Contacto | Boston Jump Start | +1 (302) 579-1996', desc: 'Llame a Boston Jump Start al +1 (302) 579-1996 para servicio móvil 24/7. Precio fijo de $200 en Boston.',
+                title: 'Contacto | Boston Jump Start | +1 (302) 579-1996', desc: 'Llame a Boston Jump Start al +1 (302) 579-1996 para servicio móvil 24/7. Precio fijo de $129 en Boston.',
                 h1: 'Contacto', sub: 'Díganos dónde está y llegaremos hasta usted', intro: '¿Batería descargada? Llámenos o escríbanos para solicitar servicio móvil.',
                 labels: ['Teléfono', 'WhatsApp', 'Horario', 'Área de servicio', 'Precio'],
-                values: [PHONE_DISPLAY, 'Enviar mensaje por WhatsApp', 'Las 24 horas, los 7 días', 'Todos los vecindarios de Boston y comunidades cercanas', 'Precio fijo de $200 (sin cargos ocultos)']
+                values: [PHONE_DISPLAY, 'Enviar mensaje por WhatsApp', 'Las 24 horas, los 7 días', 'Todos los vecindarios de Boston y comunidades cercanas', 'Precio fijo de $129 (sin cargos ocultos)']
             },
             blog: {
                 title: 'Cómo pasar corriente a un auto de forma segura | Boston Jump Start', desc: 'Aprenda cómo conectar cables y pasar corriente de forma segura. Para servicio profesional en Boston, llame a Boston Jump Start.',
@@ -175,15 +175,15 @@
                 ]
             },
             area: {
-                title: a => `Arranque de batería en ${a} $200 | Servicio móvil 24/7`,
-                desc: a => `Servicio móvil de arranque por $200 en ${a}. Disponible 24/7. Llame al +1 (302) 579-1996.`,
+                title: a => `Arranque de batería en ${a} $129 | Servicio móvil 24/7`,
+                desc: a => `Servicio móvil de arranque por $129 en ${a}. Disponible 24/7. Llame al +1 (302) 579-1996.`,
                 sub: a => `Servicio móvil de arranque en todo ${a}.<br>Un servicio, un precio fijo.`,
                 heading: a => `Servicio móvil de arranque en ${a}`,
                 body: a => `¿Batería descargada en ${a}? Llámenos y comparta su ubicación. Ofrecemos arranque móvil de vehículos en todo ${a} con ayuda clara y directa.`,
-                features: a => [`Servicio en todo ${a}`, 'Precio fijo de $200 sin cargos ocultos', 'Disponibles día y noche, los 7 días', 'La mayoría de autos, SUV y vehículos ligeros', 'Atención por teléfono y WhatsApp'],
+                features: a => [`Servicio en todo ${a}`, 'Precio fijo de $129 sin cargos ocultos', 'Disponibles día y noche, los 7 días', 'La mayoría de autos, SUV y vehículos ligeros', 'Atención por teléfono y WhatsApp'],
                 priceTitle: 'Precio claro y fijo',
-                priceBody: a => `Un arranque móvil estándar en ${a} cuesta $200. No hay recargo nocturno, de fin de semana ni festivo.`,
-                final: a => `Arranque en ${a} = $200`
+                priceBody: a => `Un arranque móvil estándar en ${a} cuesta $129. No hay recargo nocturno, de fin de semana ni festivo.`,
+                final: a => `Arranque en ${a} = $129`
             }
         }
     };
@@ -225,10 +225,10 @@
 
     function home() {
         const h = t.home;
-        return `<main><section class="hero"><div class="container"><div class="badge">${t.badge}</div><h1>${h.h1}</h1><p class="hero-sub">${h.sub}</p><div class="hero-price-box"><div class="hero-price-label">${h.priceLabel}</div><div class="hero-price-value">$200</div><div class="hero-price-note">${h.priceNote}</div></div><div class="hero-buttons">${phoneButton()}${whatsappButton()}</div></div></section>
+        return `<main><section class="hero"><div class="container"><div class="badge">${t.badge}</div><h1>${h.h1}</h1><p class="hero-sub">${h.sub}</p><div class="hero-price-box"><div class="hero-price-label">${h.priceLabel}</div><div class="hero-price-value">$129</div><div class="hero-price-note">${h.priceNote}</div></div><div class="hero-buttons">${phoneButton()}${whatsappButton()}</div></div></section>
         <section class="areas"><div class="container"><h2>${h.areasTitle}</h2><p class="section-sub">${h.areasSub}</p><div class="area-grid">${areaCards()}</div><p class="service-area-note">All Boston neighborhoods / Todos los vecindarios de Boston</p></div></section>
         <section class="steps-section"><div class="container"><h2>${h.howTitle}</h2><div class="steps">${h.steps.map(s => `<div class="step"><span class="step-num">${s[0]}</span><h3>${s[1]}</h3><p>${s[2]}</p></div>`).join('')}</div></div></section>
-        <section class="pricing"><div class="container"><h2>${h.pricingTitle}</h2><p class="section-sub">${h.pricingSub}</p><div class="price-card"><div class="price-card-inner"><div class="price-tag">${t.service}</div><div class="price-big">$200</div><div class="price-fixed-note">${t.fixed}</div><ul class="price-features">${h.features.map(x=>`<li>✓ ${x}</li>`).join('')}</ul>${phoneButton()}</div></div></div></section>
+        <section class="pricing"><div class="container"><h2>${h.pricingTitle}</h2><p class="section-sub">${h.pricingSub}</p><div class="price-card"><div class="price-card-inner"><div class="price-tag">${t.service}</div><div class="price-big">$129</div><div class="price-fixed-note">${t.fixed}</div><ul class="price-features">${h.features.map(x=>`<li>✓ ${x}</li>`).join('')}</ul>${phoneButton()}</div></div></div></section>
         <section class="faq"><div class="container"><h2>${h.faqTitle}</h2><div class="faq-list">${h.faqs.map(q=>`<details class="faq-item"><summary>${q[0]}</summary><p>${q[1]}</p></details>`).join('')}</div></div></section>
         <section class="final-cta"><div class="container"><h2>${h.finalTitle}</h2><p>${h.finalSub}</p>${phoneButton(true)}</div></section></main>`;
     }
@@ -236,7 +236,7 @@
     function about() { const a=t.about; return `<main>${smallHero(a.h1,a.sub)}<section class="content-section"><div class="container"><div class="content-card">${contentSections(a.sections)}<div class="center-cta">${phoneButton()}</div></div></div></section></main>`; }
     function contact() { const c=t.contact; return `<main>${smallHero(c.h1,c.sub)}<section class="content-section"><div class="container"><div class="content-card"><h2>${c.h1}</h2><p>${c.intro}</p><div class="contact-info">${c.labels.map((x,i)=>`<div class="contact-row"><div><strong>${x}</strong><br>${i===0?`<a href="tel:${PHONE_LINK}">${c.values[i]}</a>`:i===1?whatsappButton():c.values[i]}</div></div>`).join('')}</div><div class="center-cta">${phoneButton()}</div></div></div></section></main>`; }
     function blog() { const b=t.blog; return `<main>${smallHero(b.h1,b.sub)}<article class="blog-article"><div class="container"><div class="blog-content"><p class="blog-intro">${b.intro}</p><img src="images/aku-takviyesi-1.png" alt="Jumper cables connected to a car battery" class="blog-img">${contentSections(b.sections.slice(0,3))}<img src="images/aku-takviyesi-2.png" alt="Vehicle jump-start cables" class="blog-img">${contentSections(b.sections.slice(3))}<div class="blog-cta"><h2>${lang==='es'?'¿Prefiere ayuda profesional?':'Prefer professional help?'}</h2><p>${t.home.finalSub}</p>${phoneButton()}</div></div></div></article></main>`; }
-    function area() { const a=route.area, x=t.area; return `<main><section class="hero"><div class="container"><div class="badge">${t.badge}</div><h1>${a} ${t.service} <span>$200</span></h1><p class="hero-sub">${x.sub(a)}</p><div class="hero-price-box"><div class="hero-price-label">${t.fixed}</div><div class="hero-price-value">$200</div></div><div class="hero-buttons">${phoneButton()}${whatsappButton(a)}</div></div></section><section class="content-section"><div class="container"><div class="content-card"><h2>${x.heading(a)}</h2><p>${x.body(a)}</p><h2>${lang==='es'?'Lo que incluye':'What You Get'}</h2><ul>${x.features(a).map(v=>`<li>${v}</li>`).join('')}</ul><h2>${x.priceTitle}</h2><p>${x.priceBody(a)}</p><div class="center-cta">${phoneButton()}</div></div></div></section><section class="final-cta"><div class="container"><h2>${x.final(a)}</h2><p>${t.home.finalSub}</p>${phoneButton(true)}</div></section></main>`; }
+    function area() { const a=route.area, x=t.area; return `<main><section class="hero"><div class="container"><div class="badge">${t.badge}</div><h1>${a} ${t.service} <span>$129</span></h1><p class="hero-sub">${x.sub(a)}</p><div class="hero-price-box"><div class="hero-price-label">${t.fixed}</div><div class="hero-price-value">$129</div></div><div class="hero-buttons">${phoneButton()}${whatsappButton(a)}</div></div></section><section class="content-section"><div class="container"><div class="content-card"><h2>${x.heading(a)}</h2><p>${x.body(a)}</p><h2>${lang==='es'?'Lo que incluye':'What You Get'}</h2><ul>${x.features(a).map(v=>`<li>${v}</li>`).join('')}</ul><h2>${x.priceTitle}</h2><p>${x.priceBody(a)}</p><div class="center-cta">${phoneButton()}</div></div></div></section><section class="final-cta"><div class="container"><h2>${x.final(a)}</h2><p>${t.home.finalSub}</p>${phoneButton(true)}</div></section></main>`; }
 
     function meta() {
         let d = route.type === 'home' ? t.home : route.type === 'about' ? t.about : route.type === 'contact' ? t.contact : route.type === 'blog' ? t.blog : { title:t.area.title(route.area), desc:t.area.desc(route.area) };
@@ -245,7 +245,7 @@
         let md = document.querySelector('meta[name="description"]'); if (md) md.content = d.desc;
         document.querySelectorAll('link[rel="canonical"], script[type="application/ld+json"]').forEach(el=>el.remove());
         const canonical = document.createElement('link'); canonical.rel='canonical'; canonical.href=BASE_URL + (file && file !== 'index.html' ? '/' + file : '/') + (lang==='es'?'?lang=es':''); document.head.appendChild(canonical);
-        const schema=document.createElement('script'); schema.type='application/ld+json'; schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'AutomotiveBusiness','name':'Boston Jump Start','telephone':PHONE_LINK,'url':BASE_URL,'priceRange':'$200','areaServed':['Boston','Cambridge','Somerville','Brookline','Quincy'],'openingHours':'Mo-Su 00:00-23:59'}); document.head.appendChild(schema);
+        const schema=document.createElement('script'); schema.type='application/ld+json'; schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'AutomotiveBusiness','name':'Boston Jump Start','telephone':PHONE_LINK,'url':BASE_URL,'priceRange':'$129','areaServed':['Boston','Cambridge','Somerville','Brookline','Quincy'],'openingHours':'Mo-Su 00:00-23:59'}); document.head.appendChild(schema);
     }
 
     document.addEventListener('DOMContentLoaded', function () {
